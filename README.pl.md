@@ -8,7 +8,7 @@
 
 ![Zrzut ekranu PoingSaveManager](docs/screenshot-pl.png)
 
-PoingSaveManager to organizer zapisów dla speedrunnerów i każdego, kto chce szybko i bezpiecznie podmieniać savy. Obsługuje **całe foldery z zapisami** i **pojedyncze pliki**, działa z **globalnymi skrótami klawiszowymi** podczas gry i pozwala **dzielić się zapisami ze znajomym** przez zsynchronizowany folder, np. Dysk Google.
+PoingSaveManager to organizer zapisów dla speedrunnerów i każdego, kto chce szybko i bezpiecznie podmieniać save'y. Obsługuje **całe foldery z zapisami** i **pojedyncze pliki**, działa z **globalnymi skrótami klawiszowymi** podczas gry i pozwala **dzielić się zapisami ze znajomym** przez zsynchronizowany folder, np. Dysk Google.
 
 ## Funkcje
 
@@ -19,7 +19,7 @@ PoingSaveManager to organizer zapisów dla speedrunnerów i każdego, kto chce s
 - **Kopiuj / wytnij / wklej i przeciąganie myszką**, także z Eksploratora.
 - **Globalne skróty** – szybki import, wczytanie zaznaczonego / poprzedniego / następnego zapisu, cofnięcie – nawet gdy okno jest w tle lub schowane w zasobniku.
 - **Wspólne profile** – dziel folder (Dysk Google, Dropbox, OneDrive, Syncthing…) ze znajomym. Każdy zapis ma **nick** autora i opcjonalną **notatkę**, dostajesz powiadomienie, gdy znajomy doda zapis, i nie możesz przypadkiem nadpisać ani usunąć cudzego zapisu.
-- **Przełącznik „tylko do odczytu”** dla celu gry (pliki i całe foldery).
+- **Przełącznik „tylko do odczytu”** dla celu gry (plików i całych folderów).
 - **Natywne okno wyboru pliku/folderu Windows** i ciemny wygląd.
 - Interfejs **po angielsku (domyślnie) i po polsku** z rozwijaną listą języków – kolejne języki łatwo dodać, bez programowania (patrz „Dodawanie języka” niżej).
 - **Uruchamianie z Windows** (opcjonalnie, startuje schowany w zasobniku).
@@ -48,15 +48,15 @@ PoingSaveManager nie łączy się z Google bezpośrednio – korzysta z folderu,
 1. Oboje instalujecie **Dysk Google na komputer** (Google Drive for desktop).
 2. Jedno z Was tworzy folder na Dysku (np. `Savy`) i **udostępnia go drugiej osobie** (uprawnienia: Edytor).
 3. Znajomy dodaje udostępniony folder do swojego Dysku (*Uporządkuj → Dodaj skrót*), a potem w Eksploratorze klika go prawym przyciskiem → **Dostęp offline → Dostępne offline**, żeby pliki naprawdę leżały na dysku (albo używa trybu *Kopiuj pliki / Mirror files*).
-4. W PoingSaveManager każde z Was tworzy profil dla gry:
+4. W PoingSaveManager każdy z Was tworzy profil dla gry:
    - **Zapis gry** = plik/folder zapisu na Waszym własnym komputerze (ścieżki mogą się różnić),
    - **Folder organizera** = ten sam folder z Dysku, np. `G:\Mój dysk\Savy\Game`,
-   - włączcie **Wspólny profil**.
-5. Importujcie zapisy jak zwykle. Gdy zapis znajomego dotrze, dostaniesz powiadomienie, a on pojawi się na liście z jego nickiem (na niebiesko) i możesz go wczytać.
+   - Włączcie **Wspólny profil**.
+5. Importujcie zapisy jak zwykle. Gdy zapis znajomego dotrze, dostaniesz powiadomienie, a on pojawi się na liście z jego nickiem (na niebiesko) i będziesz mógł go wczytać.
 
 **Warto wiedzieć**
 - Zapisy pojawiają się u drugiej osoby tak szybko, jak Dysk Google je zsynchronizuje. Program sprawdza, czy zapis jest **kompletny**, zanim go wczyta, i informuje, jeśli jeszcze się synchronizuje.
-- We wspólnym profilu możesz **wczytać** zapis każdego, ale **zamieniać, zmieniać nazwę, przenosić i usuwać możesz tylko własne** zapisy. Żeby „zaktualizować” cudzy zapis, zaimportuj swój jako nowy.
+- We wspólnym profilu możesz **wczytać** zapis każdego, ale **zmieniać nazwę, przenosić i usuwać możesz tylko własne** zapisy. Żeby „zaktualizować” cudzy zapis, zaimportuj swój jako nowy.
 - Zmiana nicku nie odbiera Ci własności starszych zapisów.
 
 ## Obsługa
