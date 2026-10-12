@@ -29,7 +29,7 @@ PoingSaveManager is a save organizer for speedrunners and anyone who wants quick
 
 1. Install **Java 11 or newer** (64-bit), e.g. [Eclipse Temurin](https://adoptium.net).
 2. Download **`PoingSaveManager.exe`** from the [Releases](https://github.com/Poingpl/Poing-Save-Manager/releases) page and put it anywhere (it is a single portable file).
-3. Run it. On first start it asks for your **nickname** (required – friends see it on the saves you add) and helps you create your first profile.
+3. Run it. On first start, it asks for your **nickname** (required – friends see it on the saves you add) and helps you create your first profile.
 
 > Windows SmartScreen may show "unknown publisher" – see [Troubleshooting](#troubleshooting) for why and how to skip it.
 > You can also run the `.jar` with `java -jar PoingSaveManager.jar`, but **global hotkeys and the native file dialog only work through the `.exe`**.
@@ -43,7 +43,7 @@ PoingSaveManager is a save organizer for speedrunners and anyone who wants quick
 
 ## Sharing saves with a friend (Google Drive)
 
-PoingSaveManager does not talk to Google directly – it uses a folder that Google Drive keeps in sync. This is simple and needs no API keys. (Dropbox, OneDrive and Syncthing work exactly the same way.)
+PoingSaveManager doesn't connect to Google directly; it uses a folder that Google Drive keeps in sync. This is simple and needs no API keys. (Dropbox, OneDrive and Syncthing work exactly the same way.)
 
 1. Both of you install **Google Drive for desktop**.
 2. One of you creates a folder in Drive (e.g. `Saves`) and **shares it with the other person** (Editor access).
@@ -52,7 +52,7 @@ PoingSaveManager does not talk to Google directly – it uses a folder that Goog
    - **Game save** = the save file/folder on your own PC (paths can differ between you),
    - **Organizer folder** = the same Drive folder, e.g. `G:\My Drive\Saves\Game`,
    - switch on **Shared profile**.
-5. Import saves as usual. When a friend's save arrives you get a notification, it appears in the list with their nickname (in blue), and you can load it.
+5. Import saves as usual. When a friend's save arrives, you get a notification; it appears in the list with their nickname (in blue), and you can load it.
 
 **Good to know**
 - Saves appear on the other side as fast as Google Drive syncs them. The app checks that a save is **complete** before loading it and tells you if it is still syncing.
