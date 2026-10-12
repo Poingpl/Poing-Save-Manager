@@ -1,0 +1,3 @@
+# Built-in languages (the first one is the fallback). One language code per line.
+en
+pl
